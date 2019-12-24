@@ -1,0 +1,249 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "4464591f5989cc2d7afe43828db2f4e7",
+    "packages": [
+        {
+            "name": "colshrapnel/safemysql",
+            "version": "v1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/colshrapnel/safemysql.git",
+                "reference": "e1cbace64e6a6db02b5962a39990d26107d1d437"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/colshrapnel/safemysql/zipball/e1cbace64e6a6db02b5962a39990d26107d1d437",
+                "reference": "e1cbace64e6a6db02b5962a39990d26107d1d437",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.0.0"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "safemysql.class.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Colonel Shrapnel",
+                    "email": "col.shrapnel@gmail.com",
+                    "role": "lead"
+                }
+            ],
+            "description": "A real safe and convenient way to handle MySQL queries.",
+            "homepage": "https://github.com/colshrapnel/safemysql",
+            "keywords": [
+                "db",
+                "mysql"
+            ],
+            "time": "2018-05-16T10:40:18+00:00"
+        },
+        {
+            "name": "gsbabaev/restfulphptpl",
+            "version": "0.1.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/gsbabaev/restfulphptpl.git",
+                "reference": "d55b53edcd642315c2084c7cdb5c83586bde8a88"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/gsbabaev/restfulphptpl/zipball/d55b53edcd642315c2084c7cdb5c83586bde8a88",
+                "reference": "d55b53edcd642315c2084c7cdb5c83586bde8a88",
+                "shasum": ""
+            },
+            "require": {
+                "colshrapnel/safemysql": "@stable",
+                "php": ">=7.1.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "RESTfulPHPtpl\\": "Src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Alexander Babaev",
+                    "email": "gs.babaev@yandex.ru",
+                    "role": "Developer"
+                }
+            ],
+            "description": "RESTful template class library for json request product as category tree.",
+            "keywords": [
+                "categories",
+                "json",
+                "product",
+                "restful"
+            ],
+            "time": "2019-12-20T13:07:07+00:00"
+        },
+        {
+            "name": "gsbabaev/test-red-soft",
+            "version": "0.0.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/gsbabaev/test-red-soft.git",
+                "reference": "e89677d2c2c5ced147ce2c6c47dbb631288b1941"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/gsbabaev/test-red-soft/zipball/e89677d2c2c5ced147ce2c6c47dbb631288b1941",
+                "reference": "e89677d2c2c5ced147ce2c6c47dbb631288b1941",
+                "shasum": ""
+            },
+            "require": {
+                "colshrapnel/safemysql": "@stable",
+                "php": ">=7.1.0",
+                "rundiz/nested-set": "@stable"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "TestRedSotf\\": "Src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Alexander Babaev",
+                    "email": "gs.babaev@yandex.ru",
+                    "role": "Developer"
+                }
+            ],
+            "description": "class library for json request product as category tree.",
+            "keywords": [
+                "categories",
+                "json",
+                "product"
+            ],
+            "time": "2019-12-19T12:10:33+00:00"
+        },
+        {
+            "name": "rundiz/nested-set",
+            "version": "v0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Rundiz/nested-set.git",
+                "reference": "825ba8b29650bb1b4b7cdf16144e3490bfb2085b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Rundiz/nested-set/zipball/825ba8b29650bb1b4b7cdf16144e3490bfb2085b",
+                "reference": "825ba8b29650bb1b4b7cdf16144e3490bfb2085b",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Rundiz\\NestedSet\\": "Rundiz/NestedSet"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Vee W.",
+                    "email": "kawewong@gmail.com",
+                    "homepage": "http://rundiz.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "class library for CRUD the nested set data such as category tree.",
+            "keywords": [
+                "categories",
+                "category",
+                "category tree",
+                "hierarchy",
+                "nested model",
+                "nested set",
+                "nested tree",
+                "sub categories",
+                "sub category",
+                "tree model"
+            ],
+            "time": "2016-08-27T12:14:06+00:00"
+        },
+        {
+            "name": "twbs/bootstrap",
+            "version": "v4.3.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/twbs/bootstrap.git",
+                "reference": "8fa0d3010112dca5dd6dd501173415856001ba8b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/twbs/bootstrap/zipball/8fa0d3010112dca5dd6dd501173415856001ba8b",
+                "reference": "8fa0d3010112dca5dd6dd501173415856001ba8b",
+                "shasum": ""
+            },
+            "replace": {
+                "twitter/bootstrap": "self.version"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.3.x-dev"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jacob Thornton",
+                    "email": "jacobthornton@gmail.com"
+                },
+                {
+                    "name": "Mark Otto",
+                    "email": "markdotto@gmail.com"
+                }
+            ],
+            "description": "The most popular front-end framework for developing responsive, mobile first projects on the web.",
+            "homepage": "https://getbootstrap.com/",
+            "keywords": [
+                "JS",
+                "css",
+                "framework",
+                "front-end",
+                "mobile-first",
+                "responsive",
+                "sass",
+                "web"
+            ],
+            "time": "2019-02-13T16:01:40+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

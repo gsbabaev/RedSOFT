@@ -1,1 +1,4 @@
-helper/*
+helper/initComposerBash.bash
+helper/vendor/twbs
+helper/vendor/rundiz
+helper/vendor/gsbabaev/test-red-soft

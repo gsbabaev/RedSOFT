@@ -1,0 +1,5 @@
+{
+    "require": {
+        "gsbabaev/restfulphptpl": "^0.1.2"
+    }
+}
