@@ -2,3 +2,4 @@ helper/initComposerBash.bash
 helper/vendor/twbs
 helper/vendor/rundiz
 helper/vendor/gsbabaev/test-red-soft
+helper/vendor/gsbabaev/restfulphptpl/config.php
